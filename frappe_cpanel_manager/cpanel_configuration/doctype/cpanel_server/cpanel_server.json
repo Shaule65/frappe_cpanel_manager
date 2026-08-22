@@ -86,13 +86,12 @@
    "label": "WHM Username",
    "reqd": 1
   },
-  {
-   "fieldname": "whm_api_token",
-   "fieldtype": "Data",
-   "label": "WHM API Token",
-   "mask": 1,
-   "permlevel": 1
-  },
+   {
+    "fieldname": "whm_api_token",
+    "fieldtype": "Password",
+    "label": "WHM API Token",
+    "permlevel": 1
+   },
   {
    "fieldname": "section_break_defaults",
    "fieldtype": "Section Break",
